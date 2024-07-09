@@ -56,6 +56,9 @@
   width: 1260px;
   min-height: 500px;
   background: url("../assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero {
   display: flex;
@@ -336,4 +339,19 @@
   border-radius: 16px;
 
   background: rgba(255, 223, 0, 0.05);
+}
+/* support start */
+.support {
+  width: 1000px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.5); /* Black shadow with 50% opacity */
+  box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.5);
+  background: url("../assets/handshake.jpg");
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  margin-bottom: 50px;
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 }
