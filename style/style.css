@@ -1,10 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
 }
 /* common class */
-.full_window{
-    width: 1260px;
+
+/* nav bar */
+.nav_continer {
+  width: 1280px;
+  height: 70px;
+  /* border: 2px red solid; */
+  box-shadow: 1px 1px #888888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_continer h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 70px;
+}
+.nav_continer button {
+  
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  position: absolute;
+  width: 158px;
+  height: 37px;
+  left: 1040px;
+  top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 24px 17px 24px;
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
 }
