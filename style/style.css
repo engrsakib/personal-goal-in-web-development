@@ -1,3 +1,4 @@
+/* Azeret Mono */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -101,6 +102,7 @@
   background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: row;
+  border-radius: 3px;
   justify-content: center;
   align-items: center;
   padding: 21px 24px 21px 24px;
@@ -394,6 +396,7 @@
   height: 37px;
   display: flex;
   flex-direction: row;
+  border-radius: 3px;
   justify-content: flex-start;
   align-items: center;
   padding: 19px 20px 19px 20px;
@@ -410,6 +413,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-radius: 3px;
   padding: 17px 20px 17px 20px;
   margin: 0 16px;
   color: rgb(13, 19, 33);
@@ -419,4 +423,27 @@
   line-height: 14px;
   text-align: center;
   cursor: pointer;
+}
+/* footer part */
+.footer {
+  width: 100%;
+  height: 100px;
+  /* border: 2px red solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer_text h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 13px;
+}
+.footer_img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
