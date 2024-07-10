@@ -96,6 +96,9 @@
   text-align: center;
   margin-top: 5px;
 }
+.hero a {
+  text-decoration: none;
+}
 .hero button {
   width: 160px;
   height: 24px;
@@ -159,7 +162,8 @@
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
-  background: #ffff;
+  /* background: #ffff; */
+  background-image: linear-gradient(to right, #ffffff, rgba(13, 19, 33, 0.01));
   padding: 20px;
   border-radius: 15px;
 }
@@ -175,6 +179,7 @@
   background: #ffff;
   padding: 20px;
   border-radius: 15px;
+  background-image: linear-gradient(to left, #ffffff, rgba(13, 19, 33, 0.02));
 }
 .web_imgText {
   width: 70%;
